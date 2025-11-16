@@ -1,0 +1,111 @@
+/* .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20x 10%;
+    background: rgb(36, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+ .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 10%; /* Adjusted padding for better spacing */
+    background: rgba(36, 35, 35, 0.9); /* Slightly transparent background for a modern feel */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.logo {
+    font-size: 24px; /* Slightly larger logo */
+    color: white;
+    font-weight: 700;
+    text-decoration: none; /* To remove underline if it's an <a> tag */
+}
+
+.navbar {
+    display: flex; /* To arrange links horizontally */
+    align-items: center; /* Vertically align items */
+}
+
+.navbar a {
+    position: relative;
+    font-size: 16px; /* Slightly smaller and more readable font size */
+    color: white;
+    font-weight: 500;
+    margin-left: 25px; /* Adjusted margin for better spacing */
+    text-decoration: none; /* Remove underlines from links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar a:hover {
+    color: #cccaca ; /* Slightly lighter color on hover for feedback */
+}
+
+.navbar .text-lg {
+    margin-left: 30px; /* Add some space before the login/logout button */
+}
+
+.navbar .text-lg a,
+.navbar .text-lg button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 8px 12px; /* Add some padding to the button/link */
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.navbar .text-lg a:hover,
+.navbar .text-lg button:hover {
+    background-color: rgba(255, 255, 255, 0.199); /* Subtle background on hover */
+}
